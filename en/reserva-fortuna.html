@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortuna Reserve | Panama Highlands</title>
+    <meta name="description" content="Explore the Fortuna Forest Reserve, a sanctuary of biodiversity and cloud forests in the Chiriqui mountain range.">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --font-sans: 'Inter', sans-serif; --font-display: 'Outfit', sans-serif; }
+        body { font-family: var(--font-sans); }
+        h1, h2, h3 { font-family: var(--font-display); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900">
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="/en/index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-bold text-emerald-800 tracking-tight">Panama<span class="text-stone-500 font-light">Highlands</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="/en/index.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Home</a>
+                <a href="/en/destinations.html" class="text-emerald-900 font-medium">Destinations</a>
+                <a href="/en/activities.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Activities</a>
+                <a href="/en/tips.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Tips</a>
+                <a href="/en/contact.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Contact</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="flex bg-stone-100 p-1 rounded-full border border-stone-200">
+                    <a href="/es/reserva-fortuna.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">ES</a>
+                    <a href="/en/reserva-fortuna.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">EN</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-[60vh] flex items-center justify-center overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1920" alt="Fortuna Reserve" class="absolute w-full h-full object-cover" referrerPolicy="no-referrer">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative z-10 text-center text-white px-4">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Fortuna Reserve</h1>
+                <p class="text-xl md:text-2xl font-light max-w-2xl mx-auto">A sanctuary of clouds and biodiversity at the top of the mountain range.</p>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <section class="py-20">
+            <div class="max-w-4xl mx-auto px-4">
+                <div class="prose prose-stone lg:prose-xl">
+                    <h2 class="text-3xl font-bold text-emerald-900 mb-6">Pristine nature and mist</h2>
+                    <p class="text-stone-600 leading-relaxed mb-8">
+                        The Fortuna Forest Reserve is one of the most important protected areas in Panama. Located in the Central Mountain Range, between the provinces of Chiriqui and Bocas del Toro, it is a primary cloud forest ecosystem. Its climate is cool and extremely humid, allowing for amazing biodiversity, including rare species of birds and orchids.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 my-16">
+                        <div>
+                            <h3 class="text-2xl font-bold text-emerald-800 mb-4">Main Activities</h3>
+                            <ul class="space-y-3 text-stone-600">
+                                <li class="flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                                    Hiking the Continental Divide Trail
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                                    Birdwatching (Quetzal, Three-wattled Bellbird)
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                                    Nature and macro photography
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                                    Observation of waterfalls and crystal-clear rivers
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bg-emerald-50 p-8 rounded-3xl border border-emerald-100">
+                            <h3 class="text-2xl font-bold text-emerald-800 mb-4">Relevant Data</h3>
+                            <p class="text-stone-600 text-sm mb-4">Fortuna is a high-rainfall area, so it's always recommended to bring waterproof gear and appropriate footwear for mud.</p>
+                            <div class="flex items-center gap-4 text-emerald-700 font-bold">
+                                <span>1,200m Altitude</span>
+                                <span>14-20°C Climate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2026 Panama Highlands.</p>
+        </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

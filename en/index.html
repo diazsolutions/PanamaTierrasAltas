@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panama Highlands | Mountain Tourism</title>
+    <meta name="description" content="Explore the majestic highlands of Panama. Complete guide to Boquete, Volcan, El Valle, and more.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Panama Highlands | Mountain Tourism">
+    <meta property="og:description" content="Complete guide to the best mountain destinations in Panama.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --font-sans: 'Inter', sans-serif;
+            --font-display: 'Outfit', sans-serif;
+        }
+        body { font-family: var(--font-sans); }
+        h1, h2, h3, .font-display { font-family: var(--font-display); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900">
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="/en/index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-bold text-emerald-800 tracking-tight">Panama<span class="text-stone-500 font-light">Highlands</span></span>
+            </a>
+            
+            <div class="hidden md:flex items-center gap-8">
+                <a href="/en/index.html" class="text-emerald-900 font-medium border-b-2 border-emerald-600">Home</a>
+                <a href="/en/destinations.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Destinations</a>
+                <a href="/en/activities.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Activities</a>
+                <a href="/en/tips.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Travel Tips</a>
+                <a href="/en/contact.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Contact</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <div class="flex bg-stone-100 p-1 rounded-full border border-stone-200">
+                    <a href="/es/index.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">ES</a>
+                    <a href="/en/index.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">EN</a>
+                </div>
+                <button class="md:hidden p-2 text-stone-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-screen flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1590595906931-81f04f0ccebb?auto=format&fit=crop&q=80&w=2000" alt="Panama Highlands" class="w-full h-full object-cover" referrerPolicy="no-referrer">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-stone-50"></div>
+            </div>
+            
+            <div class="relative z-10 text-center px-4 max-w-4xl">
+                <span class="inline-block px-4 py-1.5 mb-6 bg-emerald-600/90 text-white text-sm font-bold tracking-widest uppercase rounded-full backdrop-blur-sm">Explore the Unexplored</span>
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+                    The Green Heart of <br><span class="text-emerald-400">Panama</span>
+                </h1>
+                <p class="text-xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
+                    Discover a world of cloud forests, world-class coffee, and epic adventures in the Panamanian highlands.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/en/destinations.html" class="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-all transform hover:scale-105 shadow-xl">View Destinations</a>
+                    <a href="/en/activities.html" class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl backdrop-blur-md border border-white/30 transition-all">Activities</a>
+                </div>
+            </div>
+            
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-white/60">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 13 5 5 5-5"/><path d="m7 6 5 5 5-5"/></svg>
+            </div>
+        </section>
+
+        <!-- Featured Destinations -->
+        <section class="py-24 px-4 max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <h2 class="text-4xl font-bold text-stone-900 mb-4">Featured Destinations</h2>
+                    <p class="text-stone-600 max-w-xl">From the slopes of Baru Volcano to the valleys of Cocle, these are the places you can't miss.</p>
+                </div>
+                <a href="/en/destinations.html" class="text-emerald-700 font-bold flex items-center gap-2 group">
+                    View all destinations 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Boquete -->
+                <a href="/en/boquete.html" class="group relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1590595906931-81f04f0ccebb?auto=format&fit=crop&q=80&w=800" alt="Boquete" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 p-8">
+                        <span class="text-emerald-400 text-sm font-bold uppercase tracking-widest mb-2 block">Chiriqui</span>
+                        <h3 class="text-3xl font-bold text-white mb-2">Boquete</h3>
+                        <p class="text-white/80 line-clamp-2 mb-4">The capital of flowers and coffee. An eternal valley of spring.</p>
+                        <span class="inline-flex items-center gap-2 text-white font-bold">Explore <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- El Valle -->
+                <a href="/en/el-valle.html" class="group relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1580619305218-8423a7ef79b4?auto=format&fit=crop&q=80&w=800" alt="El Valle de Anton" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 p-8">
+                        <span class="text-emerald-400 text-sm font-bold uppercase tracking-widest mb-2 block">Cocle</span>
+                        <h3 class="text-3xl font-bold text-white mb-2">El Valle de Anton</h3>
+                        <p class="text-white/80 line-clamp-2 mb-4">Live inside an extinct volcanic crater surrounded by biodiversity.</p>
+                        <span class="inline-flex items-center gap-2 text-white font-bold">Explore <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                    </div>
+                </a>
+
+                <!-- Santa Fe -->
+                <a href="/en/santa-fe.html" class="group relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&q=80&w=800" alt="Santa Fe" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 p-8">
+                        <span class="text-emerald-400 text-sm font-bold uppercase tracking-widest mb-2 block">Veraguas</span>
+                        <h3 class="text-3xl font-bold text-white mb-2">Santa Fe</h3>
+                        <p class="text-white/80 line-clamp-2 mb-4">A hidden treasure among waterfalls and primary forests.</p>
+                        <span class="inline-flex items-center gap-2 text-white font-bold">Explore <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Why Visit -->
+        <section class="bg-emerald-900 py-24 text-white">
+            <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-8 leading-tight">Why visit the Highlands?</h2>
+                    <div class="space-y-8">
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-emerald-800 rounded-2xl flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Perfect Climate</h4>
+                                <p class="text-emerald-100/70">Escape the tropical heat. Enjoy fresh temperatures between 15°C and 22°C all year round.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-emerald-800 rounded-2xl flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400"><path d="M16.7 11a3 3 0 1 0-3.4-3.4"/><path d="M12 12a3 3 0 1 0-3.4-3.4"/><path d="M12 21a9 9 0 0 0 0-18"/><path d="M12 21a9 9 0 0 1 0-18"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Specialty Coffee</h4>
+                                <p class="text-emerald-100/70">Taste Geisha coffee, the most valuable in the world, directly at the farms where it's grown.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-12 h-12 bg-emerald-800 rounded-2xl flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400"><path d="M8 3 4 7l4 4"/><path d="M4 7h16"/><path d="m16 21 4-4-4-4"/><path d="M20 17H4"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Unique Biodiversity</h4>
+                                <p class="text-emerald-100/70">Home to the majestic Quetzal and thousands of species of orchids and exotic birds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1000" alt="Panama Mountains" class="rounded-3xl shadow-2xl" referrerPolicy="no-referrer">
+                    <div class="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl hidden md:block">
+                        <p class="text-emerald-900 font-bold text-2xl">3,474m</p>
+                        <p class="text-stone-500 text-sm">Baru Volcano Height</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="/en/index.html" class="text-2xl font-bold text-white mb-6 block">Panama<span class="text-emerald-500">Highlands</span></a>
+                    <p class="max-w-sm mb-6">Your ultimate guide to exploring the mountainous regions of Panama. We promote sustainable tourism and love for nature.</p>
+                    <div class="flex gap-4">
+                        <!-- Social Icons -->
+                        <a href="#" class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-emerald-600 transition-colors text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-emerald-600 transition-colors text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/en/destinations.html" class="hover:text-emerald-400 transition-colors">Destinations</a></li>
+                        <li><a href="/en/activities.html" class="hover:text-emerald-400 transition-colors">Activities</a></li>
+                        <li><a href="/en/tips.html" class="hover:text-emerald-400 transition-colors">Travel Tips</a></li>
+                        <li><a href="/en/contact.html" class="hover:text-emerald-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Top Destinations</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/en/boquete.html" class="hover:text-emerald-400 transition-colors">Boquete</a></li>
+                        <li><a href="/en/volcan.html" class="hover:text-emerald-400 transition-colors">Volcan</a></li>
+                        <li><a href="/en/el-valle.html" class="hover:text-emerald-400 transition-colors">El Valle de Anton</a></li>
+                        <li><a href="/en/santa-fe.html" class="hover:text-emerald-400 transition-colors">Santa Fe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                <p>&copy; 2026 Panama Highlands. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a href="#" class="hover:text-white">Privacy</a>
+                    <a href="#" class="hover:text-white">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

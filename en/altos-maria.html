@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altos de Maria | Panama Highlands</title>
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --font-sans: 'Inter', sans-serif; --font-display: 'Outfit', sans-serif; }
+        body { font-family: var(--font-sans); }
+        h1, h2, h3 { font-family: var(--font-display); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900">
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="/en/index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-bold text-emerald-800 tracking-tight">Panama<span class="text-stone-500 font-light">Highlands</span></span>
+            </a>
+            <div class="flex items-center gap-4">
+                <div class="flex bg-stone-100 p-1 rounded-full border border-stone-200">
+                    <a href="/es/altos-maria.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">ES</a>
+                    <a href="/en/altos-maria.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">EN</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <section class="relative h-[60vh] flex items-center justify-center overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2000" alt="Altos de Maria" class="absolute inset-0 w-full h-full object-cover" referrerPolicy="no-referrer">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative z-10 text-center text-white px-4">
+                <span class="text-emerald-400 font-bold uppercase tracking-widest mb-4 block">Panama West</span>
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Altos de Maria</h1>
+                <p class="text-xl text-white/90 max-w-2xl mx-auto">Exclusivity and nature in the mountains.</p>
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-4 py-20 grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div class="lg:col-span-2 space-y-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">A Mountain Refuge</h2>
+                    <p class="text-stone-600 leading-relaxed mb-6">
+                        Altos de Maria is a private mountain residential community, but its trails and waterfalls are a must-see attraction for those seeking luxury and nature. Located at an altitude of between 500 and 1,100 meters.
+                    </p>
+                    <p class="text-stone-600 leading-relaxed">
+                        It offers spring-like weather all year round and stunning views of the Picacho de Laguna de San Carlos.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="text-3xl font-bold mb-8">Activities</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                            <h4 class="text-xl font-bold mb-2">River Hiking</h4>
+                            <p class="text-stone-500 text-sm">Walk along the Maria river through paved trails and hanging bridges.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                            <h4 class="text-xl font-bold mb-2">Waterfalls</h4>
+                            <p class="text-stone-500 text-sm">Visit crystal clear water falls ideal for cooling off.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                            <h4 class="text-xl font-bold mb-2">Viewpoints</h4>
+                            <p class="text-stone-500 text-sm">Observation points with views of the Pacific Ocean and surrounding mountains.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2026 Panama Highlands.</p>
+        </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

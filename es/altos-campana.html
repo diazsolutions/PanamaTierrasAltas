@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altos de Campana | Panamá Tierras Altas</title>
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --font-sans: 'Inter', sans-serif; --font-display: 'Outfit', sans-serif; }
+        body { font-family: var(--font-sans); }
+        h1, h2, h3 { font-family: var(--font-display); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900">
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="/es/index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-bold text-emerald-800 tracking-tight">Panamá<span class="text-stone-500 font-light">TierrasAltas</span></span>
+            </a>
+            <div class="flex items-center gap-4">
+                <div class="flex bg-stone-100 p-1 rounded-full border border-stone-200">
+                    <a href="/es/altos-campana.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">ES</a>
+                    <a href="/en/altos-campana.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">EN</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <section class="relative h-[60vh] flex items-center justify-center overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000" alt="Altos de Campana" class="absolute inset-0 w-full h-full object-cover" referrerPolicy="no-referrer">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative z-10 text-center text-white px-4">
+                <span class="text-emerald-400 font-bold uppercase tracking-widest mb-4 block">Panamá Oeste</span>
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Altos de Campana</h1>
+                <p class="text-xl text-white/90 max-w-2xl mx-auto">El primer Parque Nacional de Panamá.</p>
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-4 py-20 grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div class="lg:col-span-2 space-y-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Vistas al Pacífico</h2>
+                    <p class="text-stone-600 leading-relaxed mb-6">
+                        El Parque Nacional Altos de Campana fue creado en 1966. Es un área de gran importancia biológica y ofrece algunas de las vistas más espectaculares de la Bahía de Chame y Punta Chame.
+                    </p>
+                    <p class="text-stone-600 leading-relaxed">
+                        Su cercanía a la capital lo convierte en el destino ideal para una escapada de un día a la montaña.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="text-3xl font-bold mb-8">Actividades</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                            <h4 class="text-xl font-bold mb-2">Mirador Caja de Agua</h4>
+                            <p class="text-stone-500 text-sm">Punto icónico para observar la desembocadura del río Chame y el Océano Pacífico.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                            <h4 class="text-xl font-bold mb-2">Senderismo</h4>
+                            <p class="text-stone-500 text-sm">Senderos como "La Cruz" ofrecen retos moderados y vistas de 360 grados.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                            <h4 class="text-xl font-bold mb-2">Avistamiento de Aves</h4>
+                            <p class="text-stone-500 text-sm">Hogar de especies endémicas y migratorias en un entorno de bosque nuboso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2026 Panamá Tierras Altas.</p>
+        </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

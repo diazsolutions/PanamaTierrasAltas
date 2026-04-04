@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altos de Campana National Park - Panama Highlands</title>
+    <meta name="description" content="Discover Altos de Campana, the first national park in Panama. Spectacular views of the Pacific and unique cloud forest biodiversity.">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-stone-50 font-sans text-stone-900">
+    <!-- Header -->
+    <header class="fixed w-full z-50 transition-all duration-300 py-4" id="main-header">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <a href="/en/index.html" class="text-2xl font-outfit font-bold text-emerald-800 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                <span>Panama Highlands</span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 font-medium">
+                <a href="/en/destinations.html" class="hover:text-emerald-600 transition-colors">Destinations</a>
+                <a href="/en/activities.html" class="hover:text-emerald-600 transition-colors">Activities</a>
+                <a href="/en/tips.html" class="hover:text-emerald-600 transition-colors">Travel Tips</a>
+                <a href="/en/contact.html" class="hover:text-emerald-600 transition-colors">Contact</a>
+                <div class="flex items-center gap-2 bg-white/80 backdrop-blur-sm px-3 py-1 rounded-full border border-stone-200">
+                    <a href="/es/altos-campana.html" class="text-sm hover:text-emerald-600 transition-colors">ES</a>
+                    <span class="text-stone-300">|</span>
+                    <span class="text-sm font-bold text-emerald-700">EN</span>
+                </div>
+            </nav>
+
+            <button class="md:hidden text-stone-900" id="mobile-menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-[70vh] flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1920" alt="Altos de Campana" class="absolute inset-0 w-full h-full object-cover" referrerPolicy="no-referrer">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 text-center text-white px-4">
+            <h1 class="text-5xl md:text-7xl font-outfit font-bold mb-4">Altos de Campana</h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto opacity-90">The first national park in Panama, where the mountains meet the sea.</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="py-20">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="prose prose-stone lg:prose-xl">
+                <p class="text-lg leading-relaxed mb-8">
+                    Located just an hour from Panama City, <strong>Altos de Campana National Park</strong> is a natural treasure that offers some of the most spectacular views in the country. Founded in 1966, it is the oldest national park in Panama and serves as a vital biological corridor.
+                </p>
+                <p class="text-lg leading-relaxed mb-8">
+                    The park is famous for its dramatic cliffs and the <strong>Caja de Agua lookout</strong>, from where you can appreciate the mouth of the Chame River and the Pacific Ocean in all its splendor. Its cool climate and cloud forest make it a perfect refuge for those seeking a quick escape from the city heat.
+                </p>
+
+                <h2 class="text-3xl font-bold mt-12 mb-6">Main Activities</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                        <h3 class="font-bold text-emerald-700 mb-2">Hiking</h3>
+                        <p class="text-stone-600">Trails like "La Cruz" offer a challenging hike with a rewarding 360-degree view at the summit.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                        <h3 class="font-bold text-emerald-700 mb-2">Bird Watching</h3>
+                        <p class="text-stone-600">Home to unique species like the orange-bellied trogon and the scale-crested pygmy tyrant.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                        <h3 class="font-bold text-emerald-700 mb-2">Photography</h3>
+                        <p class="text-stone-600">The viewpoints offer the best panoramic shots of the Panamanian Pacific coast.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-100">
+                        <h3 class="font-bold text-emerald-700 mb-2">Nature Study</h3>
+                        <p class="text-stone-600">Observe the transition between tropical dry forest and cloud forest.</p>
+                    </div>
+                </div>
+
+                <h2 class="text-3xl font-bold mt-12 mb-6">How to get there</h2>
+                <p class="text-lg leading-relaxed mb-8">
+                    From Panama City, take the Inter-American Highway towards the interior. After passing through Capira, you will find the entrance to the town of Chicá on the right. Follow the road up the mountain until you reach the park entrance.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-stone-400">&copy; 2026 Panama Highlands. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
