@@ -1,7 +1,5 @@
 {
   "name": "Panamá Tierras Altas",
   "description": "Guía completa de turismo de montaña en Panamá. Descubre Boquete, Volcán, El Valle de Antón y más.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
+  "requestFramePermissions": []
 }
