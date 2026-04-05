@@ -20,7 +20,7 @@
     <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="/en/index.html" class="flex items-center gap-2">
-                <span class="text-2xl font-bold text-emerald-800 tracking-tight">Panamá<span class="text-stone-500 font-light">TierrasAltas</span></span>
+                <span class="text-xl md:text-2xl font-bold text-emerald-800 tracking-tight">Panamá<span class="text-stone-500 font-light">TierrasAltas</span></span>
             </a>
             <div class="hidden md:flex items-center gap-8">
                 <a href="/en/index.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Home</a>
@@ -34,6 +34,9 @@
                     <a href="/es/el-valle.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">ES</a>
                     <a href="/en/el-valle.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">EN</a>
                 </div>
+                <button class="md:hidden p-2 text-stone-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
             </div>
         </nav>
     </header>
@@ -106,9 +109,48 @@
         </section>
     </main>
 
-    <footer class="bg-stone-900 text-stone-400 py-12 mt-20">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <p>&copy; 2026 Panamá Tierras Altas.</p>
+    <footer class="bg-stone-900 text-stone-400 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="/en/index.html" class="text-2xl font-bold text-white mb-6 block">Panamá<span class="text-emerald-500">TierrasAltas</span></a>
+                    <p class="max-w-sm mb-6">Guide to exploring the mountainous regions of Panama. We promote sustainable tourism and love for nature.</p>
+                    <div class="flex gap-4">
+                        <!-- Social Icons -->
+                        <a href="#" class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-emerald-600 transition-colors text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-emerald-600 transition-colors text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/en/destinations.html" class="hover:text-emerald-400 transition-colors">Destinations</a></li>
+                        <li><a href="/en/activities.html" class="hover:text-emerald-400 transition-colors">Activities</a></li>
+                        <li><a href="/en/tips.html" class="hover:text-emerald-400 transition-colors">Travel Tips</a></li>
+                        <li><a href="/en/contact.html" class="hover:text-emerald-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Top Destinations</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/en/boquete.html" class="hover:text-emerald-400 transition-colors">Boquete</a></li>
+                        <li><a href="/en/volcan.html" class="hover:text-emerald-400 transition-colors">Volcan</a></li>
+                        <li><a href="/en/el-valle.html" class="hover:text-emerald-400 transition-colors">El Valle de Anton</a></li>
+                        <li><a href="/en/santa-fe.html" class="hover:text-emerald-400 transition-colors">Santa Fe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                <p>&copy; 2026 Panamá Tierras Altas. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a href="#" class="hover:text-white">Privacy</a>
+                    <a href="#" class="hover:text-white">Terms</a>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="/src/main.js"></script>
