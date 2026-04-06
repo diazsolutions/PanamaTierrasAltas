@@ -20,7 +20,7 @@
     <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <a href="/en/index.html" class="flex items-center gap-2">
-                <span class="text-xl md:text-2xl font-bold text-emerald-800 tracking-tight">Panamá<span class="text-stone-500 font-light">TierrasAltas</span></span>
+                <span class="text-lg md:text-2xl font-bold text-emerald-800 tracking-tight">Panamá<span class="text-stone-500 font-light">TierrasAltas</span></span>
             </a>
             <div class="hidden md:flex items-center gap-8">
                 <a href="/en/index.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Home</a>
@@ -34,11 +34,19 @@
                     <a href="/es/destinos.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">ES</a>
                     <a href="/en/destinations.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">EN</a>
                 </div>
-                <button class="md:hidden p-2 text-stone-600">
+                <button id="mobile-menu-button" class="md:hidden p-2 text-stone-600">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
                 </button>
             </div>
         </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-stone-200 py-4 px-4 space-y-4">
+            <a href="/en/index.html" class="block text-stone-600 hover:text-emerald-700 font-medium">Home</a>
+            <a href="/en/destinations.html" class="block text-emerald-900 font-bold">Destinations</a>
+            <a href="/en/activities.html" class="block text-stone-600 hover:text-emerald-700 font-medium">Activities</a>
+            <a href="/en/tips.html" class="block text-stone-600 hover:text-emerald-700 font-medium">Tips</a>
+            <a href="/en/contact.html" class="block text-stone-600 hover:text-emerald-700 font-medium">Contact</a>
+        </div>
     </header>
 
     <main class="pt-32 pb-20">
@@ -53,218 +61,218 @@
                 </div>
                 
                 <!-- Boquete Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1604401442263-e570cbcc68cf?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Boquete" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Boquete</h3>
                         <p class="text-stone-500 text-sm mb-6">The most popular destination, famous for its Geisha coffee and Baru Volcano.</p>
-                        <a href="/en/boquete.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/boquete.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Volcan Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://images.pexels.com/photos/6580663/pexels-photo-6580663.jpeg" alt="Volcan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Volcan</h3>
                         <p class="text-stone-500 text-sm mb-6">Known as "Little Switzerland", ideal for agrotourism and peace.</p>
-                        <a href="/en/volcan.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/volcan.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Cerro Punta Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://images.pexels.com/photos/9246451/pexels-photo-9246451.jpeg" alt="Cerro Punta" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Cerro Punta</h3>
                         <p class="text-stone-500 text-sm mb-6">The highest inhabited point in Panama, surrounded by crops and flowers.</p>
-                        <a href="/en/cerro-punta.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/cerro-punta.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Baru Volcano Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://images.pexels.com/photos/6580663/pexels-photo-6580663.jpeg?w=1200" alt="Baru Volcano" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Baru Volcano</h3>
                         <p class="text-stone-500 text-sm mb-6">The roof of Panama. An extreme experience to see both oceans.</p>
-                        <a href="/en/volcan-baru.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/volcan-baru.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Guadalupe Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://images.pexels.com/photos/9246451/pexels-photo-9246451.jpeg" alt="Guadalupe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Guadalupe</h3>
                         <p class="text-stone-500 text-sm mb-6">Famous for its strawberries and the Nature Sanctuary.</p>
-                        <a href="/en/guadalupe.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/guadalupe.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Bambito Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://media.istockphoto.com/id/165151170/photo/bambito.jpg?s=1024x1024&w=is&k=20&c=8kFvhGS8lLBolCNBfaHinW2iWsGRvkinOst2i_BFSWM=" alt="Bambito" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Bambito</h3>
                         <p class="text-stone-500 text-sm mb-6">Home to trout and stunning alpine landscapes.</p>
-                        <a href="/en/bambito.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/bambito.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Paso Ancho Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399178/Paso-Ancho_sqlwgm.jpg" alt="Paso Ancho" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Paso Ancho</h3>
                         <p class="text-stone-500 text-sm mb-6">Natural gateway to the Volcan Baru National Park.</p>
-                        <a href="/en/paso-ancho.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/paso-ancho.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Cuesta de Piedra Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399176/Cuesta-de-Piedra_fynwel.png" alt="Cuesta de Piedra" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Cuesta de Piedra</h3>
                         <p class="text-stone-500 text-sm mb-6">Panoramic views and fresh climate on the route to Volcan.</p>
-                        <a href="/en/cuesta-piedra.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/cuesta-piedra.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Potrerillos Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399171/potrerillos_w1rbef.jpg" alt="Potrerillos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Potrerillos</h3>
                         <p class="text-stone-500 text-sm mb-6">Land of orange groves and spectacular views of the volcano.</p>
-                        <a href="/en/potrerillos.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/potrerillos.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Palmira Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399174/palmira_qmvsq6.png" alt="Palmira" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Palmira</h3>
                         <p class="text-stone-500 text-sm mb-6">High-altitude coffee zone with dreamlike landscapes.</p>
-                        <a href="/en/palmira.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/palmira.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Caldera Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399179/Caldera_m3dafa.jpg" alt="Caldera" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Caldera</h3>
                         <p class="text-stone-500 text-sm mb-6">Famous for its hot springs and the Chiriqui River.</p>
-                        <a href="/en/caldera.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/caldera.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Jaramillo Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399171/jaramillo_buntxf.png" alt="Jaramillo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Jaramillo</h3>
                         <p class="text-stone-500 text-sm mb-6">Unmatched views of Boquete from the heights.</p>
-                        <a href="/en/jaramillo.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/jaramillo.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Bajo Boquete Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399172/bajo-boquete_mzlgyj.jpg" alt="Bajo Boquete" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Bajo Boquete</h3>
                         <p class="text-stone-500 text-sm mb-6">The vibrant heart of the Boquete valley.</p>
-                        <a href="/en/bajo-boquete.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/bajo-boquete.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Alto Boquete Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399172/alto-boquete_iwpmwq.jpg" alt="Alto Boquete" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Alto Boquete</h3>
                         <p class="text-stone-500 text-sm mb-6">Gateway to the valley with majestic views.</p>
-                        <a href="/en/alto-boquete.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/alto-boquete.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Reserva Fortuna Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399170/reserva-fortuna_croxkf.jpg" alt="Reserva Fortuna" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Reserva Fortuna</h3>
                         <p class="text-stone-500 text-sm mb-6">Pristine cloud forest and extreme biodiversity.</p>
-                        <a href="/en/reserva-fortuna.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/reserva-fortuna.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Volcan Baru National Park Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://images.pexels.com/photos/6580663/pexels-photo-6580663.jpeg?w=1200" alt="Volcan Baru National Park" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Volcan Baru N.P.</h3>
                         <p class="text-stone-500 text-sm mb-6">Protected area surrounding the highest point in Panama.</p>
-                        <a href="/en/parque-nacional-volcan-baru.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/parque-nacional-volcan-baru.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Los Quetzales Trail Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399164/senderos-los-quetzales_eblprs.jpg" alt="Los Quetzales Trail" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Los Quetzales Trail</h3>
                         <p class="text-stone-500 text-sm mb-6">The most emblematic hiking route in the country.</p>
-                        <a href="/en/sendero-los-quetzales.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/sendero-los-quetzales.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Las Nubes Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399178/Las-Nubes_vuzhxd.jpg" alt="Las Nubes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Las Nubes</h3>
                         <p class="text-stone-500 text-sm mb-6">PILA checkpoint with dreamlike landscapes.</p>
-                        <a href="/en/las-nubes.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/las-nubes.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
@@ -274,50 +282,50 @@
                 </div>
 
                 <!-- El Valle Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399179/El-Valle-Anton_njdsqr.jpg" alt="El Valle" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">El Valle de Anton</h3>
                         <p class="text-stone-500 text-sm mb-6">An oasis inside a volcanic crater. Perfect for hiking and relaxation.</p>
-                        <a href="/en/el-valle.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/el-valle.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- La Pintada Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399177/La-Pintada_wzjday.jpg" alt="La Pintada" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">La Pintada</h3>
                         <p class="text-stone-500 text-sm mb-6">Cradle of the "sombrero pintao" and surrounded by beautiful hills.</p>
-                        <a href="/en/la-pintada.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/la-pintada.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Ola Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399174/Ola_g1fyms.jpg" alt="Olá" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Olá</h3>
                         <p class="text-stone-500 text-sm mb-6">Famous for its waterfalls and pristine mountain landscapes.</p>
-                        <a href="/en/ola.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/ola.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- El Cope Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399176/El-Cope_asrmic.jpg" alt="El Copé" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">El Copé</h3>
                         <p class="text-stone-500 text-sm mb-6">Omar Torrijos National Park, a paradise of biodiversity.</p>
-                        <a href="/en/el-cope.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/el-cope.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
@@ -327,50 +335,50 @@
                 </div>
 
                 <!-- Santa Fe Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399166/santa-fe_c5vlgo.jpg" alt="Santa Fe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Santa Fe</h3>
                         <p class="text-stone-500 text-sm mb-6">Land of waterfalls and pristine forests in the central range.</p>
-                        <a href="/en/santa-fe.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/santa-fe.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Calobre Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399173/Calobre_wsjkjr.jpg" alt="Calobre" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Calobre</h3>
                         <p class="text-stone-500 text-sm mb-6">Famous for La Silampa and its arid mountain landscapes.</p>
-                        <a href="/en/calobre.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/calobre.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- San Francisco Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399176/San-Francisco_fllqht.jpg" alt="San Francisco" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">San Francisco</h3>
                         <p class="text-stone-500 text-sm mb-6">Gateway to the mountains of Veraguas.</p>
-                        <a href="/en/san-francisco.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/san-francisco.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Chitra Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399173/Chitra_xnbbk0.png" alt="Chitra" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Chitra</h3>
                         <p class="text-stone-500 text-sm mb-6">Hot springs and mountain landscapes in Calobre.</p>
-                        <a href="/en/chitra.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/chitra.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
@@ -380,50 +388,50 @@
                 </div>
 
                 <!-- Altos de Campana Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399175/altos-de-campana_ikypaw.jpg" alt="Altos de Campana" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Altos de Campana</h3>
                         <p class="text-stone-500 text-sm mb-6">Spectacular views of the Pacific and cloud forest trails.</p>
-                        <a href="/en/altos-campana.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/altos-campana.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Altos de Maria Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399178/altos-de-maria-cascada_e1qsx6.png" alt="Altos de Maria" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Altos de Maria</h3>
                         <p class="text-stone-500 text-sm mb-6">Exclusivity and nature. Trails along the river and waterfalls.</p>
-                        <a href="/en/altos-maria.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/altos-maria.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Chica Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399177/Chica_hayrfi.jpg" alt="Chicá" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Chicá</h3>
                         <p class="text-stone-500 text-sm mb-6">Mountain village with the best climate in Panama Oeste.</p>
-                        <a href="/en/chica.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/chica.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
                 <!-- Sora Card -->
-                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-100 group relative">
                     <div class="h-64 overflow-hidden">
                         <img src="https://res.cloudinary.com/dyufo0h4r/image/upload/v1775399179/Sora_jlazss.jpg" alt="Sorá" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-2">Sorá</h3>
                         <p class="text-stone-500 text-sm mb-6">Mountain landscapes and access to crystal clear rivers.</p>
-                        <a href="/en/sora.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                        <a href="/en/sora.html" class="inline-flex items-center gap-2 text-emerald-700 font-bold after:absolute after:inset-0">Learn more <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                     </div>
                 </div>
 
@@ -495,13 +503,9 @@
                     <a href="/en/index.html" class="text-2xl font-bold text-white mb-6 block">Panamá<span class="text-emerald-500">TierrasAltas</span></a>
                     <p class="max-w-sm mb-6">Guide to exploring the mountainous regions of Panama. We promote sustainable tourism and love for nature.</p>
                     <div class="flex gap-4">
-                        <!-- Social Icons -->
-                        <a href="#" class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-emerald-600 transition-colors text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                        </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-emerald-600 transition-colors text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-                        </a>
+                        <button class="sale-button bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-full font-bold transition-all shadow-lg shadow-emerald-900/20">
+                            Website and Domain for Sale
+                        </button>
                     </div>
                 </div>
                 <div>
@@ -525,13 +529,34 @@
             </div>
             <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
                 <p>&copy; 2026 Panamá Tierras Altas. All rights reserved.</p>
-                <div class="flex gap-8">
-                    <a href="#" class="hover:text-white">Privacy</a>
-                    <a href="#" class="hover:text-white">Terms</a>
-                </div>
             </div>
         </div>
     </footer>
+
+    <!-- Sale Modal -->
+    <div id="sale-modal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4 bg-stone-900/80 backdrop-blur-sm">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-8 md:p-12 relative shadow-2xl">
+            <button id="close-modal" class="absolute top-6 right-6 text-stone-400 hover:text-stone-600 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg>
+            </button>
+            <div class="text-center">
+                <div class="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-700"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                </div>
+                <h2 class="text-3xl font-bold text-stone-900 mb-4">Website and Domain for Sale</h2>
+                <p class="text-stone-600 mb-8 leading-relaxed">
+                    This website and the domain <span class="font-bold text-emerald-700">panamatierrasaltas.com</span> are for sale, including the variant <span class="font-bold text-emerald-700">tierrasaltaspanama.com</span>.
+                </p>
+                <div class="bg-stone-50 rounded-2xl p-6 mb-8">
+                    <p class="text-sm text-stone-500 mb-2 uppercase tracking-wider font-bold">Contact for Information</p>
+                    <p class="text-xl font-bold text-stone-900">saymon9@hotmail.com</p>
+                </div>
+                <button id="close-modal-btn" class="w-full bg-stone-900 hover:bg-stone-800 text-white py-4 rounded-xl font-bold transition-colors">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
 </body>
 </html>
