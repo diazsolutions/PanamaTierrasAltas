@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiencias Escénicas | Panamá Tierras Altas</title>
+    <meta name="description" content="Déjate maravillar por las vistas más espectaculares de Panamá. Amaneceres, atardeceres y miradores naturales en las tierras altas.">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --font-sans: 'Inter', sans-serif; --font-display: 'Outfit', sans-serif; }
+        body { font-family: var(--font-sans); }
+        h1, h2, h3 { font-family: var(--font-display); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900">
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="/es/index.html" class="flex items-center gap-2">
+                <span class="text-lg md:text-xl font-bold text-emerald-800 tracking-tight">Panamá<span class="text-stone-500 font-light">TierrasAltas</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="/es/index.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Inicio</a>
+                <a href="/es/destinos.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Destinos</a>
+                <a href="/es/actividades.html" class="text-emerald-900 font-medium border-b-2 border-emerald-600">Actividades</a>
+                <a href="/es/consejos.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Consejos</a>
+                <a href="#" class="sale-button text-stone-600 hover:text-emerald-700 transition-colors">Contacto</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="flex bg-stone-100 p-1 rounded-full border border-stone-200">
+                    <a href="/es/actividades/experiencias-escenicas.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">ES</a>
+                    <a href="/en/activities/scenic-experiences.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">EN</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden p-2 text-stone-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-stone-200 py-4 px-4 space-y-4">
+            <a href="/es/index.html" class="block text-stone-600 hover:text-emerald-700 transition-colors">Inicio</a>
+            <a href="/es/destinos.html" class="block text-stone-600 hover:text-emerald-700 transition-colors">Destinos</a>
+            <a href="/es/actividades.html" class="block text-emerald-900 font-medium">Actividades</a>
+            <a href="/es/consejos.html" class="block text-stone-600 hover:text-emerald-700 transition-colors">Consejos</a>
+            <a href="#" class="sale-button block text-stone-600 hover:text-emerald-700 transition-colors">Contacto</a>
+        </div>
+    </header>
+
+    <main class="pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="mb-12">
+                <a href="/es/actividades.html" class="text-emerald-700 hover:text-emerald-800 flex items-center gap-2 mb-6 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                    Volver a Actividades
+                </a>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Experiencias Escénicas</h1>
+                <p class="text-xl text-stone-600 max-w-3xl">Contempla la belleza infinita de las montañas panameñas. Momentos mágicos capturados desde los mejores miradores del país.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <div class="lg:col-span-2">
+                    <div class="bg-white rounded-3xl p-8 border border-stone-200 shadow-sm mb-8">
+                        <h2 class="text-2xl font-bold mb-6 text-emerald-900">¿Qué incluye esta actividad?</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Amaneceres y Atardeceres</h4>
+                                    <p class="text-sm text-stone-500">Observa cómo el sol tiñe las montañas de colores vibrantes.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Fotografía de Paisajes</h4>
+                                    <p class="text-sm text-stone-500">Captura la esencia de las tierras altas con tu cámara.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Miradores Panorámicos</h4>
+                                    <p class="text-sm text-stone-500">Puntos estratégicos con vistas de 360 grados de la cordillera.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Bosque Nuboso</h4>
+                                    <p class="text-sm text-stone-500">Paisajes oníricos entre nubes bajas y vegetación exuberante.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prose prose-stone lg:prose-lg max-w-none">
+                        <p>
+                            A veces, la mejor actividad es simplemente detenerse y observar. Las tierras altas de Panamá ofrecen algunos de los paisajes más impresionantes de Centroamérica, donde la montaña se encuentra con el cielo en una danza eterna de nubes y luz.
+                        </p>
+                        <p>
+                            Desde la cima del Volcán Barú, en un día despejado, es posible ver ambos océanos (Atlántico y Pacífico) al mismo tiempo. Otros lugares como el Mirador de la Cruz en El Valle de Antón o los cerros de Santa Fe ofrecen vistas igualmente conmovedoras que se quedarán grabadas en tu memoria.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-1">
+                    <div class="bg-emerald-900 rounded-3xl p-8 text-white sticky top-32">
+                        <h3 class="text-2xl font-bold mb-6">Destinos Recomendados</h3>
+                        <p class="text-emerald-100/80 mb-8 text-sm">Los mejores puntos de observación:</p>
+                        <ul class="space-y-4">
+                            <li>
+                                <a href="/es/volcan.html" class="flex items-center justify-between p-4 bg-white/10 rounded-2xl hover:bg-white/20 transition-colors group">
+                                    <span class="font-medium">Volcán Barú</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/es/el-valle.html" class="flex items-center justify-between p-4 bg-white/10 rounded-2xl hover:bg-white/20 transition-colors group">
+                                    <span class="font-medium">El Valle de Antón</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/es/santa-fe.html" class="flex items-center justify-between p-4 bg-white/10 rounded-2xl hover:bg-white/20 transition-colors group">
+                                    <span class="font-medium">Santa Fe</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/es/boquete.html" class="flex items-center justify-between p-4 bg-white/10 rounded-2xl hover:bg-white/20 transition-colors group">
+                                    <span class="font-medium">Boquete</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="/es/index.html" class="text-2xl font-bold text-white mb-6 block">Panamá<span class="text-emerald-500">TierrasAltas</span></a>
+                    <p class="max-w-sm mb-6">Guía para conocer las regiones montañosas de Panamá. Promovemos el turismo sostenible y el amor por la naturaleza.</p>
+                    <button class="sale-button bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded-full font-bold transition-colors text-sm">
+                        Sitio web y Dominio en Venta
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Enlaces Rápidos</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/es/destinos.html" class="hover:text-emerald-400 transition-colors">Destinos</a></li>
+                        <li><a href="/es/actividades.html" class="hover:text-emerald-400 transition-colors">Actividades</a></li>
+                        <li><a href="/es/consejos.html" class="hover:text-emerald-400 transition-colors">Consejos de Viaje</a></li>
+                        <li><a href="#" class="sale-button hover:text-emerald-400 transition-colors">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Destinos Top</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/es/boquete.html" class="hover:text-emerald-400 transition-colors">Boquete</a></li>
+                        <li><a href="/es/volcan.html" class="hover:text-emerald-400 transition-colors">Volcán</a></li>
+                        <li><a href="/es/el-valle.html" class="hover:text-emerald-400 transition-colors">El Valle de Antón</a></li>
+                        <li><a href="/es/santa-fe.html" class="hover:text-emerald-400 transition-colors">Santa Fe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                <p>&copy; 2026 Panamá Tierras Altas. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sale Modal -->
+    <div id="sale-modal" class="hidden fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-8 relative shadow-2xl">
+            <button id="close-modal" class="absolute top-4 right-4 text-stone-400 hover:text-stone-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg>
+            </button>
+            <div class="text-center">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-stone-900 mb-4">Sitio Web y Dominios en Venta</h3>
+                <p class="text-stone-600 mb-6 leading-relaxed">
+                    Este sitio web está en venta, al igual que los dominios <span class="font-bold text-emerald-700">tierrasaltaspanama.com</span> y <span class="font-bold text-emerald-700">panamatierrasaltas.com</span>.
+                </p>
+                <div class="bg-stone-50 p-4 rounded-2xl border border-stone-100 mb-8">
+                    <p class="text-sm text-stone-500 mb-4">Para más información, contáctenos con el siguiente QR:</p>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/50766649343" alt="WhatsApp QR Code" class="mx-auto mb-2" referrerPolicy="no-referrer">
+                </div>
+                <button id="close-modal-btn" class="w-full py-4 bg-stone-900 text-white font-bold rounded-xl hover:bg-stone-800 transition-colors" onclick="document.getElementById('sale-modal').classList.add('hidden'); document.getElementById('sale-modal').classList.remove('flex'); document.body.style.overflow = 'auto';">
+                    Entendido
+                </button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

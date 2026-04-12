@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploratory Tourism | Panamá Tierras Altas</title>
+    <meta name="description" content="Discover the lesser-known corners of the highlands of Panama. Road trips, authentic towns, and off-the-beaten-path scenic routes.">
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --font-sans: 'Inter', sans-serif; --font-display: 'Outfit', sans-serif; }
+        body { font-family: var(--font-sans); }
+        h1, h2, h3 { font-family: var(--font-display); }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900">
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="/en/index.html" class="flex items-center gap-2">
+                <span class="text-lg md:text-xl font-bold text-emerald-800 tracking-tight">Panamá<span class="text-stone-500 font-light">TierrasAltas</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="/en/index.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Home</a>
+                <a href="/en/destinations.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Destinations</a>
+                <a href="/en/activities.html" class="text-emerald-900 font-medium border-b-2 border-emerald-600">Activities</a>
+                <a href="/en/tips.html" class="text-stone-600 hover:text-emerald-700 transition-colors">Tips</a>
+                <a href="#" class="sale-button text-stone-600 hover:text-emerald-700 transition-colors">Contact</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="flex bg-stone-100 p-1 rounded-full border border-stone-200">
+                    <a href="/es/actividades/turismo-exploratorio.html" class="px-3 py-1 rounded-full text-xs font-bold text-stone-400 hover:text-stone-600">ES</a>
+                    <a href="/en/activities/exploratory-tourism.html" class="px-3 py-1 rounded-full bg-white shadow-sm text-xs font-bold text-emerald-800">EN</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden p-2 text-stone-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-stone-200 py-4 px-4 space-y-4">
+            <a href="/en/index.html" class="block text-stone-600 hover:text-emerald-700 transition-colors">Home</a>
+            <a href="/en/destinations.html" class="block text-stone-600 hover:text-emerald-700 transition-colors">Destinations</a>
+            <a href="/en/activities.html" class="block text-emerald-900 font-medium">Activities</a>
+            <a href="/en/tips.html" class="block text-stone-600 hover:text-emerald-700 transition-colors">Tips</a>
+            <a href="#" class="sale-button block text-stone-600 hover:text-emerald-700 transition-colors">Contact</a>
+        </div>
+    </header>
+
+    <main class="pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="mb-12">
+                <a href="/en/activities.html" class="text-emerald-700 hover:text-emerald-800 flex items-center gap-2 mb-6 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                    Back to Activities
+                </a>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Exploratory Tourism</h1>
+                <p class="text-xl text-stone-600 max-w-3xl">Venture off the beaten path. Discover the magic of towns and landscapes that don't appear in conventional guides.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <div class="lg:col-span-2">
+                    <div class="bg-white rounded-3xl p-8 border border-stone-200 shadow-sm mb-8">
+                        <h2 class="text-2xl font-bold mb-6 text-emerald-900">What does this activity include?</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Mountain Road Trips</h4>
+                                    <p class="text-sm text-stone-500">Drive through winding roads with spectacular views.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Picturesque Towns</h4>
+                                    <p class="text-sm text-stone-500">Visit authentic and less touristy communities.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Interprovincial Routes</h4>
+                                    <p class="text-sm text-stone-500">Explore roads that connect different mountain regions.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Unexplored Areas</h4>
+                                    <p class="text-sm text-stone-500">Discover virgin natural corners full of surprises.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prose prose-stone lg:prose-lg max-w-none">
+                        <p>
+                            Exploratory tourism is for those who prefer the road less traveled. In the highlands of Panama, this means moving away from the main tourist centers and venturing along secondary roads that wind through deep valleys and cloudy peaks.
+                        </p>
+                        <p>
+                            You will discover towns where time seems to have stopped, where people live in harmony with the land and where every curve of the road offers a new and surprising view. It is a way of traveling that requires curiosity, respect, and an adventurous spirit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-1">
+                    <div class="bg-emerald-900 rounded-3xl p-8 text-white sticky top-32">
+                        <h3 class="text-2xl font-bold mb-6">Recommended Destinations</h3>
+                        <p class="text-emerald-100/80 mb-8 text-sm">The best places to explore:</p>
+                        <ul class="space-y-4">
+                            <li>
+                                <a href="/en/santa-fe.html" class="flex items-center justify-between p-4 bg-white/10 rounded-2xl hover:bg-white/20 transition-colors group">
+                                    <span class="font-medium">Santa Fe</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/en/volcan.html" class="flex items-center justify-between p-4 bg-white/10 rounded-2xl hover:bg-white/20 transition-colors group">
+                                    <span class="font-medium">Volcan</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/en/el-cope.html" class="flex items-center justify-between p-4 bg-white/10 rounded-2xl hover:bg-white/20 transition-colors group">
+                                    <span class="font-medium">El Copé</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transform group-hover:translate-x-1 transition-transform"><path d="m9 18 6-6-6-6"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-400 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="/en/index.html" class="text-2xl font-bold text-white mb-6 block">Panamá<span class="text-emerald-500">TierrasAltas</span></a>
+                    <p class="max-w-sm mb-6">Guide to explore the mountain regions of Panama. We promote sustainable tourism and love for nature.</p>
+                    <button class="sale-button bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded-full font-bold transition-colors text-sm">
+                        Website and Domain for Sale
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/en/destinations.html" class="hover:text-emerald-400 transition-colors">Destinations</a></li>
+                        <li><a href="/en/activities.html" class="hover:text-emerald-400 transition-colors">Activities</a></li>
+                        <li><a href="/en/tips.html" class="hover:text-emerald-400 transition-colors">Travel Tips</a></li>
+                        <li><a href="#" class="sale-button hover:text-emerald-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6">Top Destinations</h4>
+                    <ul class="space-y-4">
+                        <li><a href="/en/boquete.html" class="hover:text-emerald-400 transition-colors">Boquete</a></li>
+                        <li><a href="/en/volcan.html" class="hover:text-emerald-400 transition-colors">Volcan</a></li>
+                        <li><a href="/en/el-valle.html" class="hover:text-emerald-400 transition-colors">El Valle de Anton</a></li>
+                        <li><a href="/en/santa-fe.html" class="hover:text-emerald-400 transition-colors">Santa Fe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+                <p>&copy; 2026 Panamá Tierras Altas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sale Modal -->
+    <div id="sale-modal" class="hidden fixed inset-0 z-[100] bg-black/60 backdrop-blur-sm items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-8 relative shadow-2xl">
+            <button id="close-modal" class="absolute top-4 right-4 text-stone-400 hover:text-stone-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg>
+            </button>
+            <div class="text-center">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-stone-900 mb-4">Website and Domains for Sale</h3>
+                <p class="text-stone-600 mb-6 leading-relaxed">
+                    This website is for sale, as well as the domains <span class="font-bold text-emerald-700">tierrasaltaspanama.com</span> and <span class="font-bold text-emerald-700">panamatierrasaltas.com</span>.
+                </p>
+                <div class="bg-stone-50 p-4 rounded-2xl border border-stone-100 mb-8">
+                    <p class="text-sm text-stone-500 mb-4">For more information, contact us with the following QR code:</p>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/50766649343" alt="WhatsApp QR Code" class="mx-auto mb-2" referrerPolicy="no-referrer">
+                </div>
+                <button id="close-modal-btn" class="w-full py-4 bg-stone-900 text-white font-bold rounded-xl hover:bg-stone-800 transition-colors" onclick="document.getElementById('sale-modal').classList.add('hidden'); document.getElementById('sale-modal').classList.remove('flex'); document.body.style.overflow = 'auto';">
+                    Got it
+                </button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
